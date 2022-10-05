@@ -11,6 +11,8 @@ python = "^3.10"
 starlite = "^1.24.0"
 geopandas-postgis = "^0.2.1"
 geopandas = "^0.11.1"
+loguru = "^0.6.0"
+cleo = "^0.8.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.8.0"
