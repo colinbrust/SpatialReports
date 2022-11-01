@@ -51,4 +51,3 @@ out <- spat_summary(rasts, shp, "county_fips", "mean") %>%
   dplyr::summarise(value = mean(value)) %>%
   dplyr::mutate(value = value - 273.15)
 
-spat_plot <- function()
